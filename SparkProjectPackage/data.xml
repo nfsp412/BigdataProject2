@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DATAFILE>
+    <DATAHEAD>
+        <DATA_NAME>test</DATA_NAME>
+        <DATA_TYPE>I</DATA_TYPE>
+        <PAGE_NUM>1</PAGE_NUM>
+        <ROW_NUM>1</ROW_NUM>
+        <FIELD_NUM>2</FIELD_NUM>
+        <FIELDS>
+            <FIELD ID="1" TYPE="varchar(100)">name</FIELD>
+            <FIELD ID="2" TYPE="int">age</FIELD>
+        </FIELDS>
+    </DATAHEAD>
+    <DATABODY>
+        <PAGE PAGENO="1" RECORDNUM="1">
+            张三|18
+            李四|22
+        </PAGE>
+    </DATABODY>
+</DATAFILE>
